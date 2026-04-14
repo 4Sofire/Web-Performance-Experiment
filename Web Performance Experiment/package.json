@@ -1,0 +1,29 @@
+{
+  "name": "web-perf-experiment",
+  "version": "2.0.0",
+  "description": "CST3990 — A Controlled Experimental Evaluation of Front-End and Back-End Factors Affecting Web Page Performance",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "setup": "node scripts/setup-assets.js",
+    "benchmark": "node benchmark/runner.js",
+    "benchmark-combined": "node benchmark/runner-combined.js",
+    "analyse": "node benchmark/analyse.js",
+    "build-combined": "node benchmark/build-combined.js",
+    "clean": "node scripts/clean.js",
+    "reset": "node scripts/reset.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lighthouse": "^13.0.3",
+    "mysql2": "^3.6.0",
+    "puppeteer": "^24.39.1",
+    "sharp": "^0.33.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "M01058588",
+  "license": "ISC"
+}

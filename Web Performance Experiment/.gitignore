@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER commit real credentials)
+.env
+
+# Generated assets (run `npm run setup` to regenerate)
+public/
+
+# Benchmark outputs
+benchmark/results/
+*.csv
+*.json
+!package.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
