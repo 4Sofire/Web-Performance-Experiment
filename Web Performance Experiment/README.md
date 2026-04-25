@@ -1,4 +1,4 @@
-# Web Performance Experiment — CST3990
+# Web Performance Experiment
 
 **A Controlled Experimental Evaluation of Front-End and Back-End Factors Affecting Web Page Performance**
 
